@@ -1,0 +1,112 @@
+/*formulario*/
+body{
+    background: url(abstract-white-geometric-background-free-vector.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.form-register {
+	width: 400px;
+	background: #24303c;
+	padding: 30px;
+	margin: auto;
+	margin-top: 100px;
+	border-radius: 4px;
+	font-family: 'calibri';
+	color: white;
+	box-shadow: 7px 13px 37px #000;
+  }
+  
+  .controls {
+	width: 100%;
+	background: #24303c;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid #1f53c5;
+	font-family: 'calibri';
+	font-size: 18px;
+	color: white;
+  }
+  
+  .form-register .botons {
+	width: 100%;
+	background: #1f53c5;
+	border: none;
+	padding: 12px;
+	color: white;
+	margin: 16px 0;
+	font-size: 16px;
+  }
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  h1{
+	text-align: center;
+  }
+  .form-register a{
+	width: 100%;
+	background: #1f53c5;
+	border: none;
+	padding: 12px;
+	color: white;
+	margin: 16px 0;
+	font-size: 16px;
+  }
+  /*botones*/
+  .botones{
+	text-decoration: none;
+	background-color: white; 
+	color: black; 
+	border: .1vmax solid #128b40;
+	padding: .1vmax .1vmax;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 6%;
+	font-size:1vmax;
+  
+}
+
+.botones:hover {
+	background-color: #128b40;
+	color: white;
+	padding:.1vmax .1vmax;
+}
+.botones1{
+	text-decoration: none;
+	background-color: white; 
+	color: black; 
+	border: .1vmax solid rgb(204, 12, 12);
+	padding: .1vmax .1vmax;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 6%;
+	font-size:1vmax;
+  
+}
+
+.botones1:hover {
+	background-color: rgb(204, 12, 12);
+	color: white;
+	padding: .1vmax .1vmax;
+}
+
+.menu{
+	display: flex;
+justify-content: space-between;
+background-color:#d3d4d4;
+color: black;
+padding: 13px 15px;
+font-size: 1.2vmax;
+cursor: pointer;
+user-select: none;
+}
